@@ -55,4 +55,4 @@ print(df.shape)
 print(df.dtypes)
 
 # Save the cleaned dataset to a new CSV file for further analysis
-df.to_csv('Datasets/Cafe Sales Dataset/cleaned_cafe_sales.csv', index=False)
+df.to_csv('cleaned_cafe_sales.csv', index=False)
