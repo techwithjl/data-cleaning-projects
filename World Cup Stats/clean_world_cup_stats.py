@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Read the dirty World Cup stats dataset
-df = pd.read_csv('Datasets/World Cup Stats Dataset/wcplayerstatistics2026.csv')
+df = pd.read_csv('world_cup_stats.csv')
 
 # Display the initial shape, info, head, and null values of the dataset
 print(df.info())
@@ -23,4 +23,4 @@ print(df.isnull().sum())
 print(df.dtypes)
 
 # Save the cleaned dataset to a new CSV file for further analysis
-df.to_csv('Datasets/World Cup Stats Dataset/cleaned_wcplayerstatistics2026.csv', index=False)
+df.to_csv('cleaned_world_cup_stats.csv', index=False)
