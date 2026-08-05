@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Read the dirty cafe sales dataset
-df = pd.read_csv('Datasets/Cafe Sales Dataset/dirty_cafe_sales.csv')
+df = pd.read_csv('dirty_cafe_sales.csv')
 
 # Display the initial shape, info, head, and null values of the dataset
 print(df.shape)
