@@ -22,4 +22,4 @@ print(df.isnull().sum())
 print(df.dtypes)
 
 # Save the cleaned dataset to a new CSV file for further analysis
-df.to_csv('Datasets/Students Performance Dataset/cleaned_student_performance.csv', index=False)
+df.to_csv('cleaned_students_performances.csv', index=False)
