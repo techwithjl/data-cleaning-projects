@@ -41,7 +41,7 @@ The raw dataset had missing values only in categorical/text columns (`Club`, `Se
 
 ---
 
-## 3. Student Performance Data Cleaning
+## 3. Students Performances Data Cleaning
 **Folder:** `students-performances/`
 
 The raw dataset had missing values only in categorical/text column `parental_education`, with no numeric relationships to recover from.
