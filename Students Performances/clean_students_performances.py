@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Read the dirty students performance dataset
-df = pd.read_csv('Datasets/Students Performance Dataset/student_performance_dataset.csv')
+df = pd.read_csv('students_performances.csv')
 
 # Display the initial shape, info, head, and null values of the dataset
 print(df.info())
